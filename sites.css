@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: ''Times New Roman', Times, serif';
+}
+
+
+div#title
+{
+    color:white;
+    border:solid 1px black;
+    width: 300px;
+    font-size:1.5rem;
+    text-align: center;
+    height: 100px;
+    background-color:red;
+float:left;
+}
+.siuenav_outter {
+    width: 100%;
+    background-color: black;
+}
+.siuenav_wrapper {
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    width: 70%;
+    margin: auto;
+    
+}
+.blackbar {
+    background-color: black;
+
+}
+/*START TopNavBox */
+.TopNavBox
+{   
+    margin-top: auto;
+    display:flex;
+    flex-direction: row;
+    padding:5px;
+
+}
+.TopNav_Item {
+    margin: auto;
+}
+.TopNav_Item a {
+    color:white;
+    text-decoration:none;
+    background-color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+.TopNav_Item a:hover {
+    color:black;
+    background-color:white;
+}
+.mag {
+    margin-top: auto;
+}
+.engnav_wrapper {
+    width: 70%;
+    margin: auto;
+}
+img#TopNavImg {}
+}
+/* This will change all the top nav links */
+.TopNavLink
+{
+margin-right:10px;
+display:inline;
+}
+.TopNavA
+{
+color:white;
+text-decoration: none;
+}
+
+/*END TopNavBox */
+/*START MainNav */
+.MainNav {
+    border: 1px solid black;
+    text-align:center;
+    width:100%;
+    margin:auto;
+    padding:5px;
+    background-color:red;
+    color: white;
+}
+.MainNavLink {
+    margin-right:10px;
+    display:inline;
+}
+.MainNavLink a {
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.MainNavLink a:hover {
+    color:black;
+    background-color: white;
+}
+#topselected {
+    background-color: white;
+    color:black
+}
+
+/* END MainNav */
+
+/*START BotNavBox */
+div#BotNavBox
+{
+border: 3px solid black;
+
+width:70%;
+height:250px;
+margin:auto;
+margin-top:30px;
+color: black;
+
+}
+img#BotNavSchoolImage
+{
+   width:200px;
+float:left;
+margin-top:10px;
+margin-left:5%;
+
+}
+span#BotNavContact
+{
+float:left;
+width:25%;
+height:75%;
+vertical-align:middle;
+margin-top:25px;
+margin-bottom:0px;
+margin-left:10%;
+}
+/*span#BotNavEmployers
+{
+    height:20%;
+width:25%;
+vertical-align:middle;
+float:left;
+margin-left:-25%;
+margin-top:155px;
+
+border:solid 1px black;
+}*/
+table#BotNavSocialMedia
+{
+
+float:right;
+margin-right:5%;
+width:300px;
+text-align:right;
+margin-top:15px;
+
+}
+.global_tr
+{
+    background-color:white;
+  
+}
+.global_td
+{
+padding-top: 5px;
+
+}
+.BotNavLink
+{
+margin-right:15px;
+color:black;
+}
+.BotNavSocialIcon
+{
+    float:left;
+    margin-left:5px;
+   
+}
+p#BotNavContactTitle
+{
+   text-align:center;
+}
+.BotNavSocialHyperlink
+{
+    color:black;
+text-decoration: none;
+}
+
+table#student_organizations_table
+{
+    color:red;
+    margin:auto;
+    width:60%;
+       text-align:right;
+   
+}
+table#student_activities_table
+{
+  
+    margin:auto;
+      width:60%;
+      text-align:right;
+}
+.student_organizations_td
+{
+    padding-top:50px;
+}
+img#chi_epsilon
+{
+   height:50px;
+    width:100px;
+    float:left;
+}
+img#ASCE
+{
+    height:50px;
+    width:100px;
+    float:left;
+}
+img#ITE
+{
+    height:50px;
+    width:100px;
+    float:left;
+}
+
+.clay_page_title
+{
+    color:black;
+    margin-top:10px;
+    font-size:2rem;
+    margin-left:40%;
+}
+.clay_page_subtitle
+{
+     color:black;
+    margin-top:10px;
+    margin-left:30%;
+    margin-bottom:25px;
+}
+.clay_page_content
+{
+    margin-left:32%;
+    margin-bottom:10px;
+    color: black;
+}
+.clay_page_ul
+{
+    margin-bottom:50px;
+}
+.clay_page_li
+{
+
+}
+table#student_organizations_table
+{
+    color:black;
+    margin:auto;
+    width:60%;
+       text-align:right;
+   
+}
+table#student_activities_table
+{
+    color: black;
+    margin:auto;
+      width:60%;
+      text-align:right;
+
+}
+.student_organizations_td
+{
+    padding-top:50px;
+}
+img#chi_epsilon
+{
+   height:50px;
+    width:100px;
+    float:left;
+}
+img#ASCE
+{
+    height:50px;
+    width:100px;
+    float:left;
+}
+img#ITE
+{
+    height:50px;
+    width:100px;
+    float:left;
+}
+.clay_corner_img
+{
+    width:20%;
+    float:right;
+    margin-right:15%;
+}
+div#cc_past_teams
+{
+    float:right;
+    margin-right:-150px;
+    margin-top:12%;
+  
+}
+h4#cc_past_teams
+{
+    margin-bottom:15px;
+}
+.cc_year
+{
+    margin-bottom:5px;
+}
+
+/*start employer.html  */
+.employer_img
+{
+width:20%;
+float:left;
+}
+table#employer_table
+{
+    margin:auto;
+    margin-top:50px;
+}
+.employer_tr
+{
+}
+.employer_td
+{
+   text-align:right;
+         padding-top:15px;
+}
+.employer_link
+{
+font-size:1.5rem;
+text-decoration: underline;
+color:blue;
+}
+/*end employer.html */
+
+/*start employer_final.html */
+.employer_input
+{
+ margin-top:20px;
+     margin-left:20%;
+}
+.employer_summary
+{
+   
+     margin-top:20px;
+    width:25%;
+    height:500px;
+        margin-left:20%;
+}
+.employer_label
+{
+     margin-top:20px;
+    float:left;
+    width:10%;
+    margin-left:40%;
+}
+.employer_submit
+{
+    margin-top:5px;
+    margin-left:20%;
+    float:right;
+}
+.employer_form
+{
+    width:70%;
+}
+.clay_employer_content
+{
+    margin:auto;
+    width:50%;
+}
+/*start news.html */
+.news_title
+{
+    color:black;
+    margin-top:10px;
+    font-size:2rem;
+    margin-left:%;
+    padding-bottom = 10px;
+}
+.NewsCon {
+    padding-
+    background-color: lightgrey;
+    border: 5px solid grey;
+    padding: 25px;
+    margin: auto;
+}
+.events_and_news {
+    display:flex;
+    flex-direction: column;
+}
+.news_list {
+    display:flex;
+    flex-direction: column;
+}
+.news_item {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    padding-
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+.week_calendar {
+
+}
+.weekday {
+    padding-
+    background-color: lightgrey;
+    width: 14%;
+    border: 2px solid grey;
+    padding: 5x;
+    margin: auto;
+    display:block;
+    float:left;
+}
+.week_day_title_text {
+    font-weight: bold;
+    text-align:center;
+    padding-left: 25;
+}
+.news_icon
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+.news_text {
+    
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    border-top: 2px solid grey;
+    cursor: pointer;
+    color: blue;
+    width: 100%;
+    height: 15%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+}
+.popup .hide {
+    visibility: hidden;
+}
+/* end news.html */
+/* begin events.html */
+.calendar {
+        padding-
+        background-color: lightgrey;
+        border: 5px solid grey;
+        padding: 5px;
+
+        width: 100%;
+    }
+#month {
+    font-weight: bold;
+    font-size: 25;  
+}
+.weekday_name {
+    margin: 0;
+    padding: 10px 0;
+    background-color: lightgrey
+}
+.weekday_name li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+}
+.weekday_num {
+}
+.weekday_num li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: left;
+    padding-
+    background-color: lightgrey;
+    width: 13.6%;
+    border: 1px solid grey;
+    padding-bottom:80px
+}
+/* end events.html */
+/* begin faculty.html */
+.fac_page {
+
+    margin:auto;
+}
+.fac_obj {
+    display: inline-block;
+    padding-bottom:20px;
+    padding-right: 10px;
+}
+.fac_pic {
+    width: 185px;
+    height: 185px;
+    margin:auto;
+    padding-bottom: 5
+}
+.fac_info {
+    padding-
+    background-color: lightgrey;
+    border: 1px solid grey;
+    width: 220px;
+    height: 140px;
+}
+.profpage_con {
+    display:inline-block;
+}
+.prof_name {
+    font-size: 23;
+    color:blue
+}
+.prof_title {
+    font-style: italic;
+    padding-bottom:15px
+}
+.prof_info {
+    
+}
+.prof_info_links {
+    
+}
+/* end faculty.html */
+/* begin facultyfries.html */
+.friespage_con {
+    display: flex;
+    flex-direction: column;
+}
+.friespage_pic_and_text {
+    display: flex;
+    flex-direction: row;
+}
+.friespage_name {
+    font-weight: bold;
+    font-size: 25;
+    margin-bottom: 2%
+}
+.friespage_pic {
+}
+#fries_img {
+    margin-bottom:20%; 
+    margin-right: 20px
+}
+/* end facultyfries.html */
+/*begin fcourses.html */
+.collapse {
+    display:flex;
+    flex-direction: column;
+}
+.fcourseslink {
+    color:blue;
+}
+.fcourses_title {
+    font-weight: bold;
+    font-size: 25;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+/*end fcourses.html */
+/*begin side stuff */
+.sidefull {
+    width: 10%;
+    margin-right: 3%
+}
+.hierarchy {
+    background-color: rgb(217, 217, 217);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+
+    width: 20%
+}
+.hierarchy a {
+    text-decoration: none;
+    color:blue;
+}
+#curr_page {
+    color:black;
+}
+.sidenav {
+    padding-
+    background-color: lightgrey;
+    border: 1px solid grey;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.sidenav_title {
+    font-size: 22;
+    background: -webkit-linear-gradient(top, rgba(178,178,178,0.65) 0%,rgba(169,169,169,0.65); 5%,rgba(0,0,0,0) 100%);
+
+    background-color: lightgrey;
+    border: 1px solid grey;
+    width: 100%
+}
+.sidenav_item {
+    background-color: white;
+    font-size: 18;
+    padding-bottom: 8px;
+    text-align: left;
+
+}
+.sidenav_item a {
+    display: block;
+    color:black;
+    text-decoration: none
+}
+.sidenav_item a:hover {
+    background-color: grey;
+    color:black;
+}
+#selected {
+    background-color: red;
+    color:white
+}
+.button {
+    width:100%;
+    height: 3%;
+    font-size: 24;
+    text-align:center;
+}
+.button:hover {
+    background-color: grey;
+    color:black;
+}
+.page {
+    display:flex;
+    flex-direction: column;
+}
+.top {
+    margin: auto;
+    width: 100%;
+}
+.middle {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.main_and_nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bottom {
+    
+}
+.siuenav_wrapper {
+    display:flex;
+    justify-content: flex-start
+}
+/* end sidenav stuff */

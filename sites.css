@@ -389,7 +389,6 @@ color:blue;
     width:50%;
 }
 /*start news.html */
-
 .news_title
 {
     color:black;
@@ -509,121 +508,6 @@ color:blue;
         width: 100%;
     }
 #month {
-=======
-    .news_title
-    {
-        color:black;
-        margin-top:10px;
-        font-size:2rem;
-        margin-left:%;
-        padding-bottom = 10px;
-    }
-    div#NewsCon {
-        padding-
-        background-color: lightgrey;
-        width: 50%;
-        border: 5px solid grey;
-        padding: 25px;
-        margin: auto;
-    }
-    div#NewsItem {
-        overflow:auto;
-        display:block;
-        border 20px solid black;
-        padding-bottom: 25px;
-    }
-    div#week_calendar {
-
-    }
-    div#weekday {
-        padding-
-        background-color: lightgrey;
-        width: 14%;
-        border: 2px solid grey;
-        padding: 5x;
-        margin: auto;
-        display:block;
-        float:left;
-    }
-    .week_day_title_text {
-        font-weight: bold;
-        text-align:center;
-        padding-left: 25;
-    }
-    .news_icon
-    {
-        width: 100px;   
-        height 100px;
-        float:left;
-        padding-right: 10px;
-    }
-    .news-text {
-       direction: ltr;    
-       border-collapse: collapse;
-       border-spacing: 0;
-    }
-    .popup {
-        position: relative;
-        display: inline-block;
-        border-top: 2px solid grey;
-        cursor: pointer;
-        color: blue;
-        width: 100%;
-        height: 15%;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-    /* The actual popup */
-    .popup .popuptext {
-        visibility: hidden;
-        width: 160px;
-        background-color: #555;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 8px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 100%;
-        left: 50%;
-        margin-left: -80px;
-    }
-
-    /* Popup arrow */
-    .popup .popuptext::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
-    }
-
-    /* Toggle this class - hide and show the popup */
-    .popup .show {
-        visibility: visible;
-        -webkit-animation: fadeIn 1s;
-    }
-    .popup .hide {
-        visibility: hidden;
-    }
-/* end news.html */
-/* begin events.html */
-div#calendar {
-        padding-
-        background-color: lightgrey;
-        width: 50%;
-        border: 5px solid grey;
-        padding: 25px;
-        margin: auto;
-    }
-div#month {
-
     font-weight: bold;
     font-size: 25;  
 }
@@ -637,8 +521,7 @@ div#month {
     width: 13.6%;
     text-align: center;
 }
-.weekday_num{
-   
+.weekday_num {
 }
 .weekday_num li {
     display: inline-block;
@@ -648,14 +531,12 @@ div#month {
     background-color: lightgrey;
     width: 13.6%;
     border: 1px solid grey;
-
     padding-bottom:80px
-
-
 }
 /* end events.html */
 /* begin faculty.html */
 .fac_page {
+
     margin:auto;
 }
 .fac_obj {
@@ -715,7 +596,6 @@ div#month {
     margin-right: 20px
 }
 /* end facultyfries.html */
-
 /*begin fcourses.html */
 .collapse {
     display:flex;
@@ -752,7 +632,6 @@ div.panel {
     display: none;
 }
 /*end fcourses.html */
-
 /*begin side stuff */
 .sidefull {
     width: 10%;
@@ -821,7 +700,6 @@ div.panel {
 .page {
     display:flex;
     flex-direction: column;
-
 }
 .top {
     margin: auto;
@@ -845,4 +723,3 @@ div.panel {
     justify-content: flex-start
 }
 /* end sidenav stuff */
-

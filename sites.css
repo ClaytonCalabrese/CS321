@@ -389,6 +389,127 @@ color:blue;
     width:50%;
 }
 /*start news.html */
+
+.news_title
+{
+    color:black;
+    margin-top:10px;
+    font-size:2rem;
+    margin-left:%;
+    padding-bottom = 10px;
+}
+.NewsCon {
+    padding-
+    background-color: lightgrey;
+    border: 5px solid grey;
+    padding: 25px;
+    margin: auto;
+}
+.events_and_news {
+    display:flex;
+    flex-direction: column;
+}
+.news_list {
+    display:flex;
+    flex-direction: column;
+}
+.news_item {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    padding-
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+.week_calendar {
+
+}
+.weekday {
+    padding-
+    background-color: lightgrey;
+    width: 14%;
+    border: 2px solid grey;
+    padding: 5x;
+    margin: auto;
+    display:block;
+    float:left;
+}
+.week_day_title_text {
+    font-weight: bold;
+    text-align:center;
+    padding-left: 25;
+}
+.news_icon
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+.news_text {
+    
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    border-top: 2px solid grey;
+    cursor: pointer;
+    color: blue;
+    width: 100%;
+    height: 15%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+}
+.popup .hide {
+    visibility: hidden;
+}
+/* end news.html */
+/* begin events.html */
+.calendar {
+        padding-
+        background-color: lightgrey;
+        border: 5px solid grey;
+        padding: 5px;
+
+        width: 100%;
+    }
+#month {
+=======
     .news_title
     {
         color:black;
@@ -502,6 +623,7 @@ div#calendar {
         margin: auto;
     }
 div#month {
+
     font-weight: bold;
     font-size: 25;  
 }
@@ -515,8 +637,8 @@ div#month {
     width: 13.6%;
     text-align: center;
 }
-.weekday_num {
-    
+.weekday_num{
+   
 }
 .weekday_num li {
     display: inline-block;
@@ -526,12 +648,14 @@ div#month {
     background-color: lightgrey;
     width: 13.6%;
     border: 1px solid grey;
-    padding-bottom:50px
+
+    padding-bottom:80px
+
+
 }
 /* end events.html */
 /* begin faculty.html */
 .fac_page {
-    width: 50%;
     margin:auto;
 }
 .fac_obj {
@@ -591,6 +715,44 @@ div#month {
     margin-right: 20px
 }
 /* end facultyfries.html */
+
+/*begin fcourses.html */
+.collapse {
+    display:flex;
+    flex-direction: column;
+}
+.fcourseslink {
+    color:blue;
+}
+.fcourses_title {
+    font-weight: bold;
+    font-size: 25;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+/*end fcourses.html */
+
 /*begin side stuff */
 .sidefull {
     width: 10%;
@@ -657,11 +819,9 @@ div#month {
     color:black;
 }
 .page {
-    
     display:flex;
     flex-direction: column;
-    margin-left: 2%;
-    margin-right: 2%;
+
 }
 .top {
     margin: auto;
@@ -685,4 +845,4 @@ div#month {
     justify-content: flex-start
 }
 /* end sidenav stuff */
-</style>
+

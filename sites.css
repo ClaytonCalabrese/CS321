@@ -151,7 +151,6 @@ vertical-align:middle;
 float:left;
 margin-left:-25%;
 margin-top:155px;
-
 border:solid 1px black;
 }*/
 table#BotNavSocialMedia
@@ -193,6 +192,10 @@ p#BotNavContactTitle
 {
     color:black;
 text-decoration: none;
+}
+
+ul#cait_page_ul{
+
 }
 
 table#student_organizations_table
@@ -928,3 +931,286 @@ div.panel {
 }
 /*end_new_footer*/
 /*end.udnergraduate.html */
+
+
+
+/*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: ''Times New Roman', Times, serif';
+    font-size: 2vw;
+}
+
+div#title
+{
+    color:white;
+    border:solid 3px red;
+    width: 25%;
+    font-size:1.5rem;
+    text-align: center;
+    height: auto;
+    background-color:red;
+    float:left;
+    padding: 5px;
+}
+
+/*START TopNavBox */
+div#TopNavBox
+{
+border: 3px solid black;
+text-align:center;
+width:75%;
+padding:5px;
+float:left;
+background-color:black;
+color: white;
+}
+
+img#TopNavImg
+{
+    margin-top:15px;
+    margin-right:500px;
+    width: 100%;
+    height: auto;
+}
+
+/* This will change all the top nav links */
+.TopNavLink
+{
+margin-right:10px;
+display:inline;
+}
+
+.TopNavA
+{
+color:white;
+text-decoration: none;
+}
+
+/*END TopNavBox */
+
+/*START MainNav */
+div#MainNav
+{
+border: 1px solid black;
+text-align:center;
+width:100%;
+margin:auto;
+padding:5px;
+background-color:red;
+color: white;
+}
+
+.MainNavLink
+{
+margin-right:10px;
+display:inline;
+}
+
+/* END MainNav */
+
+.floating-box1 {
+    float: left;
+    width: 49%;
+    border: 1px solid gray;
+    padding:10px;
+    /*position:relative;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-left:10px;
+}
+
+.floating-box2 {
+    float: right;
+    width: 49%;
+    border: 1px solid gray;
+    padding:10px;
+    /*position:relative;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left:0px;
+}
+
+.floating-box3 {
+    float: left;
+    width: 32%;
+    border: 1px solid gray;
+    padding:10px;
+    /*position:relative;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:0px;
+    margin-left:10px;
+}
+
+.floating-box4 {
+    float: left;
+    width: 32%;
+    border: 1px solid gray;
+    padding:10px;
+    /*position:relative;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.floating-box5 {
+    float: right;
+    width: 32%;
+    border: 1px solid gray;
+    padding:10px;
+    /*position:relative;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left:0px;
+}
+
+.outer{
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+.outer h3{
+    font-size: 2vw;
+}
+
+#inner1{
+    border: 1px solid gray;
+    width: 49%;
+    float: left;
+    padding: 10px;
+    margin-right: 1%;
+}
+#inner2{
+    border: 1px solid gray;
+    width: 49%;
+    float: right;
+    padding: 10px;
+}
+#inner3{
+    border: 1px solid gray;
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+#inner4{
+    border: 1px solid gray;
+    width: 33%;
+    float: left;
+    padding: 10px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#inner5{
+    border: 1px solid gray;
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.cd-table{
+    margin-left:100px;
+    margin-top: 15px;
+    font-size: 130%;
+}
+
+table, td, th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left:100px;
+    margin-top: 10px;
+    font-size: 115%;
+    padding: 15px;
+}
+
+
+/*START BotNavBox */
+div#BotNavBox
+{
+border: 3px solid black;
+width:70%;
+height:250px;
+margin:auto;
+margin-top:700px;
+color: black;
+}
+img#BotNavSchoolImage
+{
+width:200px;
+float:left;
+margin-top:10px;
+margin-left:5%;
+}
+
+span#BotNavContact
+{
+float:left;
+width:25%;
+height:75%;
+vertical-align:middle;
+margin-top:25px;
+margin-bottom:0px;
+margin-left:10%;
+}
+
+/*span#BotNavEmployers
+{
+height:20%;
+width:25%;
+vertical-align:middle;
+float:left;
+margin-left:-25%;
+margin-top:155px;
+border:solid 1px black;
+}*/
+
+table#BotNavSocialMedia
+{
+float:right;
+margin-right:5%;
+width:300px;
+text-align:right;
+font-size: 90%;
+margin-top:15px;
+}
+
+.global_tr
+{
+    background-color:white;  
+}
+
+.global_td
+{
+padding-top: 5px;
+}
+
+.BotNavLink
+{
+margin-right:15px;
+color:black;
+}
+
+.BotNavSocialIcon
+{
+    float:left;
+    margin-left:5px;   
+}
+
+p#BotNavContactTitle
+{
+   text-align:center;
+}
+
+.BotNavSocialHyperlink
+{
+color:black;
+text-decoration: none;
+}*/

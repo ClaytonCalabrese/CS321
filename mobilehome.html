@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="mobilesites.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="page">
+    <div class="top">
+        <div class="siue_header">
+            <img id="siue_img" src="logo-siue.png" alt="SIUE Logo" width="243" height="73">
+        </div>
+        <div class="eng_pic">
+            <img id="eng_img" src="engheadermobile.png" alt="Civil Engineering" width="300" height="133">
+        </div>
+    </div>   
+    <div class="main_nav_wrapper">
+        <div class="main_drop_item" id="main_nav_selected" >
+            <button class="main_nav_button"><a class="main_nav_button" href="mobilehome.html" >Home</a></button>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleUg()" class="main_nav_button">Undergraduate</button>
+            <div class="main_nav_drop_list" id="main_ug">
+                <a href="#home">About</a>
+                <a href="#about">Curriculum</a>
+                <a href="#contact">Scholarships</a>
+                <a href="#contact">Employment</a>
+                <a href="#contact">Resources</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleGrad()" class="main_nav_button" id="main_grad_btn">Graduate</button>
+            <div class="main_nav_drop_list" id="main_g">
+                <a href="#home">About</a>
+                <a href="#about">Funding</a>
+                <a href="#contact">Specializations</a>
+                <a href="#contact">Research</a>
+                <a href="#contact">Forms</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleCourses()" class="main_nav_button">Courses</button>
+            <div class="main_nav_drop_list" id="main_c">
+                <a href="#home">Courses</a>
+                <a href="#about">Lab Courses</a>
+                <a href="#contact">Curriculum</a>
+                <a href="#contact">Prerequisite<br>Flowchart</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleFaculty()" class="main_nav_button">Faculty</button>
+            <div class="main_nav_drop_list" id="main_f">
+                <a href="#home">Professors</a>
+                <a href="#about">Staff</a>
+                <a href="#contact">Emeriti</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleNE()" class="main_nav_button">News &amp; Events</button>
+            <div class="main_nav_drop_list" id="main_ne">
+                <a href="#home">Current</a>
+                <a href="#about">News</a>
+                <a href="#contact">Events</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleSOrg()" class="main_nav_button">Student Organizations</button>
+            <div class="main_nav_drop_list" id="main_so">
+                <a href="#home">Civil Engineering</a>
+                <a href="#about">Engineering</a>
+                <a href="#contact">University</a>
+            </div>
+        </div>
+        <div class="main_drop_item">
+        <button onclick="toggleAbout()" class="main_nav_button">About</button>
+            <div class="main_nav_drop_list" id="main_a">
+                <a href="#home">About</a>
+                <a href="#about">Facilities</a>
+                <a href="#contact">Graduation<br>Stats</a>
+                <a href="#contact">For Parents</a>
+            </div>
+        </div>
+    </div>    
+        
+    <img id="school_pic" alt="School Pic" src="school_of_eng.jpg" width="100%" height="25%">
+    <div class="middle">
+                <div class="home_obj">
+                    <span class="home_title">Undergraduate Program</span>
+                    <div class="home_body">
+                        <span class="home_body_text">In the exciting field of civil engineering, you not only create and maintain the infrastructure of modern industrialized society but you conceive, design, and construct magnificent structures, such as bridges, stadiums, treatment plants, highways, airports, and many more! Civil engineers are employed in technical and managerial positions in environmental, geotechnical, structural, and transportation engineering by consulting firms, government agencies, and manufacturing companies.</span>
+                        <a href="undergraduate.html" class="home_link"><br>See the Undergraduate Program</a>
+                    </div>
+                </div>
+                <img id="grad_pic" alt="Construction Pic" src="construction-project-management.png" width="100%" height="35%">
+                <div class="home_obj">
+                    <span class="home_title">Graduate Program</span>
+                    <div class="home_body">
+                        <span class="home_body_text">Committed to providing opportunities for individuals to advance their knowledge and skills and to pursue impactful scholarly activities, the SIUE Graduate School provides high-quality graduate education, fosters intellectual development, and facilitates excellence in research and creative activities.</span>
+                        <a href="graduate.html" class="home_link"><br>See the Graduate Program</a>
+                    </div>
+                </div>
+                <img id="so_pic" alt="Student Organization Pic" src="studentOrgs.jpg" width="100%" height="25%">
+                <div class="home_obj">
+                    <span class="home_title">Student Organizations</span>
+                    <div class="home_body">
+                        <span class="home_body_text">Each year, engineering student organization members dedicate hundreds of days preparing and competing in various design competitions. Find your place in one of the many School of Engineering student organizations and apply your classroom learning in a team environment while gaining valuable communication and leadershispan skills. These experiences will benefit your studies and your future career.</span>
+                        <a href="student_organizations.html" class="home_link"><br>View Student Organizations</a>
+                    </div>
+                </div>
+                <div class="home_obj">
+                        <span class="home_title">Upcoming Events</span>
+                        <div class="home_news_body">
+                            <p class="home_news_title">October 2, 2017:</p>
+                            <span class="home_events_body_text">3pm Monday: Career Fair</span>
+                            <p class="home_news_title">October 3, 2017:</p>
+                            <span class="home_events_body_text">7pm Tuesday: Concrete Canoe Meeting</span>
+                            <p class="home_news_title">October 6, 2017:</p>
+                            <span class="home_events_body_text">12pm Friday: Guest Speaker</span>
+                            <a href="events.html" class="home_link"><br>See More Events</a>
+                        </div>
+                </div>
+                <div class="home_obj">
+                    <span class="home_title">Recent News</span>
+                    <div class="home_news_body">
+                        <div class="home_news_item">
+                            <p class="home_news_title">September 21, 2017:</p>
+                            <div class="home_news_and_pic">
+                                <img alt="news" class="home_news_icon" src="newsicon.png">
+                                <span class="home_news_body_text">Civil Engineering’s faculty Dr. Zhou is approved by SIU Trustees to serve on ERTC Advisory Committee</span>
+                            </div>
+                        </div>
+                        <div class="home_news_item">
+                            <p class="home_news_title">September 18, 2017:</p>
+                            <div class="home_news_and_pic">
+                                <img alt="news" class="home_news_icon" src="newsicon.png">
+                                <span class="home_news_body_text">Akash Jain, is the recipient of the 2017 ASCE/SEI St. Louis Chapter Structural Engineering Scholarship</span>
+                            </div>
+                        </div>
+                        <div class="home_news_item">
+                            <p class="home_news_title">September 13, 2017:</p>
+                            <div class="home_news_and_pic">
+                                <img alt="news" class="home_news_icon" src="vasquez_and_civil_engineering_students.JPG"
+                                     >
+                                <span class="home_news_body_text">CE Students Build Masonry Arch</span>
+                            </div>
+                        </div>
+                        <a href="news.html" class="home_link">View All News</a>
+                    </div>
+                </div>
+    </div>
+    <script>
+        var menuOpen = false;
+        var openedMenuID;
+        
+        function toggleUg() {
+            var funcID = "main_ug";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                menuOpen = false;
+                openedMenuID = "";
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        
+        function toggleGrad() {
+            var funcID = "main_g";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        
+        function toggleCourses() {
+            var funcID = "main_c";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        
+        function toggleFaculty() {
+            var funcID = "main_f";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        
+        function toggleNE() {
+            var funcID = "main_ne";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        
+        function toggleSOrg() {
+            var funcID = "main_so";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        function toggleAbout() {
+            var funcID = "main_a";
+            if (menuOpen) {
+                document.getElementById(openedMenuID).classList.toggle("show");
+            }
+            if (openedMenuID == funcID) {
+                openedMenuID = "";
+                menuOpen = false;
+            } else {
+               document.getElementById(funcID).classList.toggle("show");
+               menuOpen = true;
+               openedMenuID = funcID; 
+            }
+        }
+        window.onclick = function(event) {
+          if (!event.target.matches('.main_nav_button')) {
+            menuOpen = false;
+            var dropdowns = document.getElementsByClassName("main_nav_drop_list");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+    <div class="bottom">
+        <div class="footer_social">
+            <img alt="social" class="logo" src="facebook.jpg">
+            <img alt="social" class="logo" src="twitter.jpg">
+            <img alt="social" class="logo" src="youtube.jpg">
+            <img alt="social" class="logo" src="linkedin.jpg">
+            <img alt="social" class="logo" src="flickr.jpg">
+            <img alt="social" class="logo" src="instagram.jpg">
+            <img alt="social" class="logo" src="googleplus.jpg">
+            <img alt="social" class="logo" src="tumblr.jpg">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

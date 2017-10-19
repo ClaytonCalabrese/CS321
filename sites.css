@@ -198,31 +198,14 @@ ul#cait_page_ul{
 
 }
 
-table#student_organizations_table
-{
-    color:red;
-    margin:auto;
-    width:60%;
-       text-align:right;
-   
-}
-table#student_activities_table
-{
-  
-    margin:auto;
-      width:60%;
-      text-align:right;
-}
-.student_organizations_td
-{
-    padding-top:50px;
-}
+
 img#chi_epsilon
 {
    height:50px;
     width:100px;
     float:left;
 }
+
 img#ASCE
 {
     height:50px;
@@ -235,7 +218,13 @@ img#ITE
     width:100px;
     float:left;
 }
+img#cc2015
+{
+    height:50px;
+    width:100px;
+    float:left;
 
+}
 .clay_page_title
 {
     color:black;
@@ -268,22 +257,25 @@ table#student_organizations_table
 {
     color:black;
     margin:auto;
-    width:60%;
+    width:150%;
        text-align:right;
    
 }
 table#student_activities_table
 {
-    color: black;
+  
     margin:auto;
-      width:60%;
+      width:150%;
       text-align:right;
-
 }
+
 .student_organizations_td
 {
     padding-top:50px;
 }
+
+
+
 img#chi_epsilon
 {
    height:50px;
@@ -778,7 +770,7 @@ div.panel {
     flex-wrap: nowrap;
 }
 .bottom {
-    background-color: blagck;
+ 
 }
 .siuenav_wrapper {
     display:flex;

@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<!--This includes a couple js functions and the import fucntions-->
+    <script src="lib/compressed.js"></script>
+    <meta charset="utf-8" name="viewport">
+    <title>RENAME TITLE</title>
+    <link href="sites.css" rel="stylesheet" type="text/css">
+</head>
+<!--This div contains EVERYTHING that you can see Nothing should be outside of it-->
+<div class="page">
+    <!--this includes the header-->
+    <div w3-include-html="header.html"></div>
+    
+    
+    <!--This div contains all pace-specific contents. Any divisions you make should be done as a child of middle-->
+    <div class="middle">
+        <div class="hierarchy">
+            <!-- Use id="curr_page" to make the current page not blue (to show they're on that page) -->
+            <a href="#home">Civil Engineering</a>
+            <a href="#home">/ Page</a>
+            <a href="#home" id="curr_page">/ Page</a>
+        </div>
+    </div> <!--end middle. This should be the end of your content-->
+    
+    
+    <!--this includes the footer-->
+    <div w3-include-html="footer.html"></div>
+</div> <!--end page. No content past this point-->
+    
+<!--Script that handles the importing-->
+<script>
+    w3.includeHTML();
+</script>   
+</html>

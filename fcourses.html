@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <script src="lib/compressed.js"></script>
+    <meta charset="utf-8" name="viewport">
+    <title>Ryan Fries</title>
+    <link href="sites.css" rel="stylesheet" type="text/css">
+</head>
+<div class="page">
+    <div w3-include-html="header.html"></div>
+    <div class="middle">
+        <div class="hierarchy">
+            <a href="#home">Civil Engineering</a>
+            <a href="#home">/ Faculty</a>
+            <a href="#home" id="curr_page">/ Ryan Fries</a>
+        </div>
+        <div class="main_and_nav">
+            <div class="blunt_nav">
+                <a href="#home">Summary</a>
+                <a id=fries_selected href="#home">Courses</a>
+                <a href="#home">Publications</a>
+                <a href="#home">Awards</a>
+                <a href="#home">Research</a>
+                <a href="#home">Education</a>
+                <a href="#home">Organizations</a>
+                <a href="#home">Professional<br>Activities</a>
+            </div>
+            <div class="friespage_con">
+                <div class="dontusetitle">
+                    <p class="friespage_name">Ryan Fries, Ph.D., P.E.</p>
+                </div>
+                <div class="friespage_pic_and_text">
+                    <div class="friespage_courses">
+                        <p class="friescourse_title">Undergraduate Courses</p>
+                            <button class="expand">IE 106: Introduction to Engineering</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 240: Statics</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 376: Transporation</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 460: Municipal Infrastructure Design</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 473: Travel Demand Forecasting</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 476: Traffic Studies</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                            <button class="expand">CE 493: Engineering Design</button>
+                            <div class="panel">
+                                <p>View Full Course</p>
+                                <p>Syllabus</p>
+                                <p>Notes</p>
+                            </div>
+                    </div>
+                    <div class="friespage_courses">
+                        <p class="friescourse_title">Graduate Courses</p>
+                        <button class="expand">CE 574: Transportation Infrastructure Security</button>
+                        <button class="expand">CE 578: Intelligent Transporation Systems</button>
+                    </div>
+                   <div class="friespage_pic">
+                        <img   src="images/Ryan-Fries-big.jpg"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="footer.html"></div>
+</div>
+<script>
+var acc = document.getElementsByClassName("expand");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+<script>
+    w3.includeHTML();
+</script>
+</html>

@@ -1,0 +1,337 @@
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport">
+    <title>Events</title>
+    <link href="sites.css" rel="stylesheet" type="text/css">
+</head>
+<div class="page">
+    <div class="top">
+        <div class="siuenav_outter">
+            <div class="siuenav_wrapper">
+                <img class="logo" src="images/logo-siue.png"></img>
+                <div class="TopNavBox">
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/admissions/">Admissions</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/academics/">Academics &amp Library</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/student-life/">Student Life</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siuecougars.com/landing/index">Athletics</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/maps/">Maps</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/research/">Research</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/give/">Giving</a>
+                    </div>
+                    <div class="TopNav_Item">
+                        <a href="http://www.siue.edu/about/index.shtml">About SIUE</a>
+                    </div>
+                </div>
+                <img class="mag" src="images/search.png"></img>
+            </div>
+        </div>
+        <div class="engnav_wrapper">
+            <a href="home.html">
+                <img id="TopNavImg" src="images/engheader.jpg"></img>
+            </a>
+            <div class="MainNav">
+                <div class = "MainNavLink">
+                     <a href="undergraduate.html">Undergraduate</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="graduate.html">Graduate</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="courses.html">Courses</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="faculty.html">Faculty</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="newsevents.html" id="topselected">News &amp Events</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="student_organizations.html">Student Organizations</a>
+                </div>
+                <div class = "MainNavLink">
+                     <a href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+         <div class="hierarchy">
+                <a href="home.html">Civil Engineering</a>
+                <a href="newsevents.html">/ News &amp Events</a>
+                <a href="" id="curr_page">/ Event Calender</a>
+            </div>
+         <div class="main_and_nav">
+            <div class="sidefull">
+                    <div class="sidenav">
+                        <div class="sidenav_title">
+                            <p>News</p>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="newsevents.html">Current</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="news.html">News</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="events.html" id="selected">Event Calendar</a>
+                        </div>
+                    </div>
+
+                    <div class="sidenav">
+                        <div class="sidenav_title">
+                            <p>Other Links</p>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="https://www.siue.edu/careerdevelopmentcenter/employers/career-fairs.shtml">Career Fair</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="#home">Undergraduatae</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="">Graduate</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="">About</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="">Facilities</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="">Careers</a>
+                        </div>
+                        <div class="sidenav_item">
+                            <a href="">For Employers</a>
+                        </div>
+                    </div>
+                    <div class="home_button">
+                        <button type="button" class=home_button><a href="home.html">Civil Engineering Home</a></button>
+                    </div>
+                </div>
+            <div class="calendar">    
+                <p id="month">October 2017</p>
+                <ul class="weekday_name">
+                  <li>Sun</li>
+                  <li>Mon</li>
+                  <li>Tues</li>
+                  <li>Wed</li>
+                  <li>Thur</li>
+                  <li>Fri</li>
+                  <li>Sat</li>
+                </ul>
+                <ul class="weekday_num">
+                <div class="month_box">
+                        <div class="day_box">
+                           <li>1</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>2</li> 
+                            <div class="popup" onclick="sunFunc()">3pm Career Fair
+                                <div class="popuptext" id="sunPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Monday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function sunFunc() {
+                                var popup = document.getElementById("sunPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="day_box">
+                           <li>3</li> 
+                            <div class="popup" onclick="sunFunc2()">7pm Concrete Canoe Meeting
+                                <div class="popuptext" id="sun2Pop">
+                                    <p>Concrete Canoe Meeting</p>
+                                    <p>7pm Tuesday</p>
+                                    <p>The concrete canoe team will meet....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function sunFunc2() {
+                                var popup = document.getElementById("sun2Pop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="day_box">
+                           <li>4</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>5</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>6</li> 
+                            <div class="popup" onclick="sunFunc1()">12pm Guest Speaker
+                                <div class="popuptext" id="sun1Pop">
+                                    <p>Guest Speaker</p>
+                                    <p>12PM Friday</p>
+                                    <p>A guest speaker will be giving a ....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function sunFunc1() {
+                                var popup = document.getElementById("sun1Pop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="day_box">
+                           <li>7</li>
+                        </div>
+                        <div class="day_box">
+                           <li>8</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>9</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>10</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>11</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>12</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>13</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>14</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>15</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>16</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>17</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>18</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>19</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>20</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>21</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>22</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>23</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>24</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>25</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>26</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>27</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>28</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>29</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>30</li> 
+                        </div>
+                        <div class="day_box">
+                           <li>31</li> 
+                        </div>
+                    </div>
+                    
+                </ul>
+            </div>
+            </div>
+    </div>
+    <div class="bottom">
+                <div class="footer_box">
+                    <div class="footer_img">
+                        <img src="images/engfoot.jpg" id="BotNavSchoolImage"></img>
+                    </div>
+                    <div class="footer_contact_info">
+                        <p class="footer_contact_title">Contact</p>
+                        <p>Phone: (618)-650-2541</p>
+                        <p>Email: engineering@siue.edu</p>
+                        <p>Fax: (618)-650-3374</p>
+                        <p>Engineering Bldg Room 3057</p>
+                    </div>
+                    <div class="footer_social">
+                        <table id="BotNavSocialMedia">
+                            <tr class="global_tr">
+                                <td class="global_td">
+                                    <a href="https://www.facebook.com/siuedwardsville" class="BotNavSocialHyperlink"><img class="BotNavSocialIcon" src="images/facebook.jpg"></img> <span id="BotNavFacebook" class="BotNavLink">Facebook</span></a>
+                                </td>
+                                <td class="global_td">
+                                    <a href="https://www.flickr.com/photos/siue" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/flickr.jpg"></img> <span id="BotNavFlickr" class="BotNavLink">Flickr</span>
+                                </td>
+                            </tr>
+                            <tr class="global_tr">
+                                <td class="global_td">
+                                    <a href="https://twitter.com/siue" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/twitter.jpg"></img> <span id="BotNavTwitter" class="BotNavLink">Twitter</span>
+                                </td>
+                                <td class="global_td">
+                                    <a href="https://www.instagram.com/siuedwardsville/" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/instagram.jpg"></img> <span id="BotNavInstagram" class="BotNavLink">Instagram</span>
+                                </td>
+                            </tr>
+                            <tr class="global_tr">
+                                <td class="global_td">
+                                    <a href="https://www.youtube.com/user/siueweb" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/youtube.jpg"></img> <span id="BotNavYoutube" class="BotNavLink">YouTube</span>
+                                </td>
+                                <td class="global_td">
+                                    <a href="https://plus.google.com/109200407222057738145" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/googleplus.jpg"></img> <span id="BotNavGoogle" class="BotNavLink">Google+</span>
+                                </td>
+                                <tr class="global_tr">
+                                </tr>
+                                <td class="global_td">
+                                    <a href="https://www.linkedin.com/edu/southern-illinois-university-edwardsville-18307" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/linkedin.jpg"></img> <span id="BotNavLinkedIn" class="BotNavLink">LinkedIn</span>
+                                </td>
+                                <td class="global_td">
+                                    <a href="http://siuedwardsville.tumblr.com/" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/tumblr.jpg"></img> <span id="BotNavTumblr" class="BotNavLink">Tumblr</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+</div>
+
+<footer id="page-footer">
+    Copyright &copy; 2017 CS321-Fall. All rights reserved.
+</footer>
+
+
+</html>
+
+</html>

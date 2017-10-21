@@ -1,126 +1,50 @@
+<!DOCTYPE HTML>
 <html>
-
 <head>
+    <script src="lib/compressed.js"></script>
     <meta charset="utf-8" name="viewport">
-    <title>Courses</title>
+    <title>SIUE Civil Engineering</title>
     <link href="sites.css" rel="stylesheet" type="text/css">
 </head>
-<div id="title"><a href="http://www.siue.edu/" class="TopNavA">Southern Illinois University Edwardsville</a></div>
-
-
-<div id="TopNavBox">
-
-    <span id="TopNavAdmissions" class="TopNavLink"><a href="http://www.siue.edu/admissions/" class="TopNavA"> Admissions</a> </span>
-    <span id="TopNavAcademics_Library" class="TopNavLink"><a href="http://www.siue.edu/academics/"class="TopNavA">  Academics & Library</a></span>
-    <span id="TopNavStudent_Life" class="TopNavLink"><a href="http://www.siue.edu/student-life/"class="TopNavA">  Student Life</a></span>
-    <span id="TopNavAtheletics" class="TopNavLink"><a href="http://www.siuecougars.com/landin"class="TopNavA">  Atheletics</a></span>
-    <span id="TopNavMaps" class="TopNavLink"><a href="http://www.siue.edu/maps/"class="TopNavA">  Maps</a></span>
-    <span id="TopNavResearch" class="TopNavLink"><a href="http://www.siue.edu/research/"class="TopNavA"> Research</a></span>
-    <span id="TopNavGiving" class="TopNavLink"><a href="http://www.siue.edu/give/"class="TopNavA">  Giving</a></span>
-    <span id="TopNavAbout" class="TopNavLink"><a href="http://www.siue.edu/about/index.shtml"class="TopNavA">  About SIUE</a></span>
-</div>
-<img id="TopNavImg" src="images/images/engheader.jpg"></img>
-<div id="MainNav">
-    <span id="MainNavUndergraduate" class="MainNavLink">Undergraduate </span>
-
-    <span id="MainNavGraduate" class="MainNavLink">Graduate </span>
-
-    <span id="MainNavCourses" class="MainNavLink">Courses </span>
-
-    <span id="MainNavFaculty" class="MainNavLink">Faculty</span>
-
-    <span id="MainNavNews_Events" class="MainNavLink">News & Events</span>
-
-    <span id="MainNavStudent_Organizations" class="MainNavLink">Student Organizations</span>
-
-    <span id="MainNavAbout" class="MainNavLink">About</span>
-</div>
-
-
-<!--<h3 class="cait_page_title">Courses</h3>-->
-
-<img class="cait_corner_img" src="images/"></img>
-
-
-<div class="cd-table">
-<h2 class="cait_page_subtitle">Course Descriptions</h2>
-<p>This will have filtering dropdowns such as 100s, 200s, 300s, 400, and Electives</p>
-</div>
-
-<table id="coursetable">
-  <tr>
-    <th>Course Number</th>
-    <th>Course Type</th> 
-    <th>Credit Hours</th>
-    <th>Course Name</th>
-  </tr>
-  <tr>
-    <td>204</td>
-    <td>Lecture</td>
-    <td>3</td>
-    <td>Engineering Graphics & CAD</td>
-  </tr>
-  <tr>
-    <td>206</td>
-    <td>Lecture</td>
-    <td>2</td>
-    <td>Civil Engineering Surveying</td>
-  </tr>
-  <tr>
-    <td>207</td>
-    <td>Lab</td>
-    <td>1</td>
-    <td>Civil Engineering Computer Applications</td>
-  </tr>
-</table>
-
-<div id="BotNavBox">
-    <img src="images/school_house.jpg" id="BotNavSchoolImage"></img>
-
-    <span id="BotNavContact"><p id="BotNavContactTitle">Contact</p><br>Phone: 618-650-2541 <br><br>Email: engineering@siue.edu <br><br>Fax: 618-650-3374 <br><br> Engineering Bldg Room 3057 
-    </span>
-
-
-    <table id="BotNavSocialMedia">
-        <tr class="global_tr">
-            <td class="global_td">
-                <a href="https://www.facebook.com/siuedwardsville" class="BotNavSocialHyperlink"><img class="BotNavSocialIcon" src="images/facebook.jpg"></img> <span id="BotNavFacebook" class="BotNavLink">Facebook</span></a>
-            </td>
-            <td class="global_td">
-                <a href="https://www.flickr.com/photos/siue" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/flickr.jpg"></img> <span id="BotNavFlickr" class="BotNavLink">Flickr</span>
-            </td>
-        </tr>
-        <tr class="global_tr">
-            <td class="global_td">
-                <a href="https://twitter.com/siue" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/twitter.jpg"></img> <span id="BotNavTwitter" class="BotNavLink">Twitter</span>
-            </td>
-            <td class="global_td">
-                 <a href="https://www.instagram.com/siuedwardsville/" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/instagram.jpg"></img> <span id="BotNavInstagram" class="BotNavLink">Instagram</span>
-            </td>
-        </tr>
-        <tr class="global_tr">
-            <td class="global_td">
-                <a href="https://www.youtube.com/user/siueweb" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/youtube.jpg"></img> <span id="BotNavYoutube" class="BotNavLink">YouTube</span>
-            </td>
-            <td class="global_td">
-                <a href="https://plus.google.com/109200407222057738145" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/googleplus.jpg"></img> <span id="BotNavGoogle" class="BotNavLink">Google+</span>
-            </td>
-            <tr class="global_tr">
+<div class="home_page">
+    <div w3-include-html="header.html">
+    </div>
+        <div class="middle">
+            <div class="cd-table">
+            <h2 class="cait_page_subtitle">Course Descriptions</h2>
+            <p>This will have filtering dropdowns such as 100s, 200s, 300s, 400, and Electives</p>
+            </div>
+            <table id="coursetable">
+            <tr>
+                <th>Course Number</th>
+                <th>Course Type</th> 
+                <th>Credit Hours</th>
+                <th>Course Name</th>
             </tr>
-            <td class="global_td">
-                <a href="https://www.linkedin.com/edu/southern-illinois-university-edwardsville-18307" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/linkedin.jpg"></img> <span id="BotNavLinkedIn" class="BotNavLink">LinkedIn</span>
-            </td>
-            <td class="global_td">
-                <a href="http://siuedwardsville.tumblr.com/" class="BotNavSocialHyperlink"> <img class="BotNavSocialIcon" src="images/tumblr.jpg"></img> <span id="BotNavTumblr" class="BotNavLink">Tumblr</span>
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <td>204</td>
+                <td>Lecture</td>
+                <td>3</td>
+                <td>Engineering Graphics & CAD</td>
+            </tr>
+            <tr>
+                <td>206</td>
+                <td>Lecture</td>
+                <td>2</td>
+                <td>Civil Engineering Surveying</td>
+            </tr>
+            <tr>
+                <td>207</td>
+                <td>Lab</td>
+                <td>1</td>
+                <td>Civil Engineering Computer Applications</td>
+            </tr>
+            </table>
 </div>
-
-
-<footer id="page-footer">
-    Copyright &copy; 2017 CS321-Fall. All rights reserved.
-</footer>
-
-
+    <div w3-include-html="footer.html">     
+    </div>
+</div>
+<script>
+w3.includeHTML();
+</script>
 </html>

@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8" name="viewport">
-    <title>News</title>
+    <title>News &amp Events</title>
     <link href="sites.css" rel="stylesheet" type="text/css">
 </head>
 <div class="page">
@@ -68,11 +68,10 @@
             </div>
         </div>
     </div>
-<div class="middle">
-     <div class="hierarchy">
+    <div class="middle">
+        <div class="hierarchy">
             <a href="#home">Civil Engineering</a>
-            <a href="#home">/ News &amp Events</a>
-            <a href="#home" id="curr_page">/ News</a>
+            <a href="#home" id="curr_page">/ News &amp Events</a>
         </div>
         <div class="main_and_nav">
             <div class="sidefull">
@@ -81,10 +80,10 @@
                         <p>News</p>
                     </div>
                     <div class="sidenav_item">
-                        <a href="newsevents.html">Current</a>
+                        <a href="newsevents.html" id="selected">Current</a>
                     </div>
                     <div class="sidenav_item">
-                        <a href="news.html" id="selected">News</a>
+                        <a href="news.html">News</a>
                     </div>
                     <div class="sidenav_item">
                         <a href="events.html">Event Calendar</a>
@@ -99,7 +98,7 @@
                         <a href="https://www.siue.edu/careerdevelopmentcenter/employers/career-fairs.shtml">Career Fair</a>
                     </div>
                     <div class="sidenav_item">
-                        <a href="#home">Undergraduatae</a>
+                        <a href="#home">Undergraduate</a>
                     </div>
                     <div class="sidenav_item">
                         <a href="">Graduate</a>
@@ -122,10 +121,130 @@
                 </div>
             </div>
             <div class="NewsCon">
-                <div class="dedicated_news">
+                <div class="events_and_news">
+                    <h3 class="news_title">Events</h3>
+                    <div class="week_calendar">
+                        <div class="weekday">
+                            <span class="week_day_title_text">Sunday</span>
+                            <div class="popup" onclick="sunFunc()">3PM Career Fair
+                                <div class="popuptext" id="sunPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function sunFunc() {
+                                var popup = document.getElementById("sunPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Monday</span>
+                            <div class="popup" onclick="monFunc()">3PM Career Fair
+                                <div class="popuptext" id="monPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function monFunc() {
+                                var popup = document.getElementById("monPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Tuesday</span>
+                            <div class="popup" onclick="tuesFunc()">3PM Career Fair
+                                <div class="popuptext" id="tuesPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function tuesFunc() {
+                                var popup = document.getElementById("tuesPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Wednesday</span>
+                            <div class="popup" onclick="wedFunc()">3PM Career Fair
+                                <div class="popuptext" id="wedPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function wedFunc() {
+                                var popup = document.getElementById("wedPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Thursday</span>
+                            <div class="popup" onclick="thursFunc()">3PM Career Fair
+                                <div class="popuptext" id="thursPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function thursFunc() {
+                                var popup = document.getElementById("thursPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Friday</span>
+                            <div class="popup" onclick="friFunc()">3PM Career Fair
+                                <div class="popuptext" id="friPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+                                function friFunc() {
+                                    var popup = document.getElementById("friPop");
+                                    popup.classList.toggle("show");
+                                }
+                            </script>
+                        </div>
+                        <div class="weekday">
+                            <span class="week_day_title_text">Saturday</span>
+                            <div class="popup" onclick="satFunc()">3PM Career Fair
+                                <div class="popuptext" id="satPop">
+                                    <p>Career Fair</p>
+                                    <p>3PM Friday</p>
+                                    <p>The career fair is a great place to get started....</p>
+                                </div>
+                            </div>
+                            <script>
+
+                            function satFunc() {
+                                var popup = document.getElementById("satPop");
+                                popup.classList.toggle("show");
+                            }
+                            </script>
+                        </div>
+                    </div>
                     <h3 class="news_title">News</h3>
-                    <div class="dedicated_news_list"> 
-                        <p class="dedicated_news_title">September 18, 2017:</p>
+                    <p class="dedicated_news_title">September 18, 2017:</p>
                         <div class="dedicated_news_item">
                             <img class="dedicated_news_icon" src="images/newsicon.png"></img>
                             <div class="dedicated_news_body">
@@ -154,62 +273,14 @@
                                     <img class="dedicated_news_pics" src="images/masonry_arch_before_testing"></img>
                                 </div>
                             </div>
-                        </div>
-                        <p class="dedicated_news_title">April 12, 2017:</p><br>
-                        <div class="dedicated_news_item">
-                            <img class="dedicated_news_icon" src="images/newsicon.png"></img>
-                            <div class="dedicated_news_body">
-                                <p class="news_text_title">Civil Engineering’s Zhou Named ASCE’s EWRI Fellow</p>
-                                <p class="news_text">Jianpeng “Jim” Zhou, PhD, PE, BCEE, has been awarded fellow grade of the Environmental and Water Resources Institute (EWRI), one of the largest institutes of the American Society of Civil Engineers. More information about this distinctive honor can be found here.</p>
-                            </div>
-                        </div>
-                        <p class="dedicated_news_title">March 31, 2017:</p>
-                        <div class="dedicated_news_item">
-                            <img class="dedicated_news_icon" src="images/newsicon.png"></img>
-                            <div class="dedicated_news_body">
-                                <p class="news_text_title">CE Department news for March 2017</p>
-                                <p class="news_text">The CE department has greatly expanded its offerings in both undergraduate and graduate geotechnical engineering courses. Please see https://www.siue.edu/academics/degrees-and-programs/graduate/civil-engineering/specialization-geotechnical-engineering.shtml for more information.
-                                A new integrative studies graduate certificate in Transportation Engineering and Construction Management, which requires the completion of 19 hours of courses, split between the Departments of Civil Engineering and Construction, has been approved. For more information, go to https://www.siue.edu/academics/degrees-and-programs/graduate/integrative-studies/.
-
-                                Brent Vaughn and Nader Panahshahi both received the 2017 Teaching Recognition Award from SIUE.
-
-                                Jianwei Huang received the Spring 2017 Vaughn Vandegrift URCA Research Mentor of the Semester Awards.
-
-                                Reza Osouli was recommended for Promotion and Tenure to Associate Professor by the Dean, Provost, and Chancellor. This will be ratified at the April meeting of the SIUE Board of Trustees.
-
-                                Jim Zhou has been elected to the Fellow grade of membership for ASCE-EWRI. EWRI is one of largest institutes of American Society of Civil Engineers (ASCE, 150,000 members), focusing on environmental and water resources.
-                                http://www.asce.org/environmental-and-water-resources-engineering/environmental-and-water-resources-institute/.</p>
-                            </div>
-                        </div>
-                        <p class="dedicated_news_title">March 30, 2017:</p>
-                        <div class="dedicated_news_item">
-                            <img class="dedicated_news_icon" src="images/newsicon.png"></img>
-                            <div class="dedicated_news_body">
-                                <p class="news_text_title">Masonry Institute of St. Louis and The Masonry Institute of Southern Illinois are jointly sponsoring CE 443 Masonry Design</p>
-                                <p class="news_text">The Masonry Institute of St. Louis and The Masonry Institute of Southern Illinois are jointly sponsoring CE 443 Masonry Design in Fall 2017.   In addition to making a sizeable contribution to make this class possible, they are purchasing the latest masonry codes for every student in the class.</p>
-                            
-                            </div>
-                        </div>
-                        <p class="dedicated_news_title">March 30, 2017:</p>
-                        <div class="dedicated_news_item">
-                            <img class="dedicated_news_icon" src="images/Niloy.jpg"></img>
-                            <div class="dedicated_news_body">
-                                <p class="news_text_title">Md. Toushik Ahmed Niloy, Civil Engineering wins first place for poster</p>
-                                <p class="news_text">Md Toushik Ahmed Niloy, Civil Engineering won first place for his poster presentation at the 2017 Graduate Student Research Symposium. The title of his presentationn was “Actuated Signal Timing Optimization for a No-Notice Evacuation: A Simulation Study of Residents near the Phillips 66 Oil Refinery in Wood River, Illinois”. Dr. Ryan Fires, is the advisor for this master thesis work.</p>
-                                <div id=ertc_pics>
-                                    <img class="dedicated_news_pics" src="images/Niloy.jpg"></img>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 </div>
 
 
-<div class="bottom">
+    <div class="bottom">
             <div class="footer_box">
                 <div class="footer_img">
                     <img src="images/engfoot.jpg" id="BotNavSchoolImage"></img>
